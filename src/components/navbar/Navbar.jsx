@@ -11,15 +11,22 @@ const Container = styled.div`
 `
 
 const Left = styled.div`
-
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
 `
 
 const Center = styled.div`
-
+  display: flex;
+  flex: 2;
 `
 
 const Right = styled.div`
-
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
 `
 
 const Logo = styled.h1`
@@ -50,7 +57,7 @@ const Button = styled.button`
   border: 2px solid white;
   cursor: pointer;
   color: white;
-  padding: 10px 10px;
+  padding: 10px 20px;
   border-radius: 10px;
   &:hover {
     background-color: aliceblue;

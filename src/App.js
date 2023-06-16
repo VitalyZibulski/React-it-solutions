@@ -1,6 +1,7 @@
 import styled, {createGlobalStyle} from "styled-components";
 import Navbar from "./components/navbar/Navbar";
 import React from "react";
+import Hero from "./components/hero/Hero";
 
 const GlobalStyles = createGlobalStyle`
 *{
@@ -27,6 +28,7 @@ function App() {
       <GlobalStyles />
       <Container>
         <Navbar />
+        <Hero />
       </Container>
     </>
   );
